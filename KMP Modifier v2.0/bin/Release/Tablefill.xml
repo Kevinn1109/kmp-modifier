@@ -1,0 +1,64 @@
+<XML version="1.0">
+  <ENPT>
+    <Setting1 key="00">Default</Setting1>
+    <Setting1 key="01">Only with cutting item</Setting1>
+    <Setting1 key="02">Use cutting item</Setting1>
+    <Setting1 key="03">Swerve</Setting1>
+    <Setting1 key="04">Swerve a little</Setting1>
+    <Setting1 key="05">0x05</Setting1>
+
+    <Setting2 key="00">Default</Setting2>
+    <Setting2 key="01">End drift</Setting2>
+    <Setting2 key="02">Forbidden wheely</Setting2>
+    <Setting2 key="03">Start drift</Setting2>
+  </ENPT>
+
+  <ITPT>
+    <Setting1 key="00">Over abyss/Horizontal</Setting1>
+    <Setting1 key="01">BB Flies Horizontal</Setting1>
+    <Setting1 key="02">BB Follows Route</Setting1>
+    <Setting1 key="03">Over Mushrooms/Horizontal</Setting1>
+
+    <Setting2 key="00">Default</Setting2>
+    <Setting2 key="01">BB doesn't stop (0x01)</Setting2>
+    <Setting2 key="0a">BB only goes down to Y</Setting2>
+    <Setting2 key="0b">BB doesn't stop (0x0B)</Setting2>
+  </ITPT>
+
+  <POTI>
+    <Setting1 key="0">Point to point</Setting1>
+    <Setting1 key="1">Smooth</Setting1>
+
+    <Setting2 key="0">Cyclic</Setting2>
+    <Setting2 key="1">Back and forth</Setting2>
+  </POTI>
+
+  <AREA>
+    <Variants key="0">Camera</Variants>
+    <Variants key="1">ObjClip</Variants>
+    <Variants key="2">EfControl</Variants>
+    <Variants key="3">FogControl</Variants>
+    <Variants key="4">PullControl</Variants>
+    <Variants key="5">EnemyFall</Variants>
+    <Variants key="6">2DmapArea</Variants>
+  </AREA>
+
+  <CAME>
+    <Variants key="0">Goal</Variants>
+    <Variants key="1">FixSearch</Variants>
+    <Variants key="2">PathSearch</Variants>
+    <Variants key="3">KartFollow</Variants>
+    <Variants key="4">KartPathFollow</Variants>
+    <Variants key="5">OP_FixMoveAt</Variants>
+    <Variants key="6">OP_PathMoveAt</Variants>
+    <Variants key="7">MiniGame</Variants>
+    <Variants key="8">MissionSucces</Variants>
+  </CAME>
+
+  <CNPT>
+    <Effects key="0001">Fast Curved</Effects>
+    <Effects key="0002">Slow Curved</Effects>
+    <Effects key="0003">Slow Straight</Effects>
+    <Effects key="FFFF">Fast Straight</Effects>
+  </CNPT>
+</XML>

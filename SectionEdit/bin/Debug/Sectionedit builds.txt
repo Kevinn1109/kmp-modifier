@@ -1,0 +1,6 @@
+v1.0.2.0: First complete build
+
+v1.0.3.0: Found bugs solved
+v1.0.3.1: Fixes bug if reaching the 10th section
+v1.0.3.2: Adds new editing options
+v1.0.3.3: Fixes wrong file bug

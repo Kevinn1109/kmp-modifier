@@ -1,0 +1,140 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="KTPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="KTPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ENPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ENPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ITPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ITPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CKPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CKPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GOBJPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="GOBJPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="POTIPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="POTIPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AREAPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AREAPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CAMEPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CAMEPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JGPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="JGPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CNPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CNPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MSPTPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MSPTPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Pointsize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">100, 100</Value>
+    </Setting>
+    <Setting Name="ENPHPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="ENPHPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="ITPHPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="ITPHPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="CKPHPlugins" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="CKPHPlugin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SectionEdit.exe</Value>
+    </Setting>
+    <Setting Name="Crashed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Pointcolor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="Background" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="Keycheckpoint" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="Selection" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="OBJCollor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Showarrow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Addleft" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Delright" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Names" Type="System.Collections.ArrayList" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfAnyType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Startposition&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;CPU paths&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Item paths&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Checkpoints&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Objects&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Routes&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Area trigger&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Camera&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Respawns&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Cannon destination&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Ending position&lt;/anyType&gt;
+  &lt;anyType xsi:type="xsd:string"&gt;Stage information&lt;/anyType&gt;
+&lt;/ArrayOfAnyType&gt;</Value>
+    </Setting>
+    <Setting Name="ShowCombo" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,7 @@
+KMP-CSV
+File indifier, do not change.
+
+Each section will start with a cell at column 1 like <KTPT>. If this cell is not prescent, the section will not be read.
+Then each line, that has the right amount of columns is used as point, untill a row like </KTPT> is read.
+If the first cell of a valid row has 'ID' as value, the row will be used as column-order. You can freely change the order.
+

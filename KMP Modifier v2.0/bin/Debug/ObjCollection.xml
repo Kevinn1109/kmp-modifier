@@ -1,0 +1,2466 @@
+﻿<items>
+  <item key="001">
+    <name>airblock</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description>
+      The airblock is a solid object with the wall variant, preventing you to reach certain areas in the competition. This object doesn't require any BRRES file because it loads them from another file (Please someone who knows the file write it here).
+    </description>
+  </item>
+  <item key="002">
+    <name>Psea</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Psea(B)</files>
+    <description>
+      This is the sea seen on GCN Peach Beach. It floods and drops with a certain time, the flood and drops are just the y that's changing. If you want the ''Psea'' on your course you'll have to add a new polygon to your model. Then after that delete all other polygons and export the sea as obj and import it to the model with the SZS Modifier, then just place the object on the course with x, y and z 0.
+    </description>
+  </item>
+  <item key="003">
+    <name>lensFX</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files>lensFX</files>
+    <description>
+      Generates a lens flare object when looking at the sun. It's also highly recommed to place this object near the sun.
+    </description>
+  </item>
+  <item key="004">
+    <name>venice_nami</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>venice_nami(B)</files>
+    <description>
+      The rising and dropping sea on Delfino Pier. This object is different than Psea because it raises after a certain time to a higher level and stays there after a few raises. Further the same settings as Psea. First the water drops up and down and then after a certain time it goes up with a fast speed. This cycle is done untill the max. hight is reached.
+    </description>
+    <setting id="1" type="dec">Rising height per cyclus</setting>
+    <setting id="2" type="dec">Reset height (relative to placement y)</setting>
+    <setting id="3" type="hex">
+      No visible change (tested with 0x0000, 0x0001 and 0xF000)
+    </setting>
+    <setting id="4" type="dec">Time to rise X units</setting>
+    <setting id="5" type="dec">Max. Height (relative to placement y)</setting>
+    <setting id="6" type="hex">Controls when to reset unknown values</setting>
+    <setting id="7" type="dec">Starting height (=X?)</setting>
+  </item>
+  <item key="005">
+    <name>sound_river</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a river sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="006">
+    <name>sound_water_fall</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a waterfall sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="007">
+    <name>pocha</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files>pocha(BE)</files>
+    <description>
+      This object generates a water splash effect when a player falls in the water with the same assigned kcl id.
+    </description>
+    <setting id="1" type="dec">KCL Index</setting>
+  </item>
+  <item key="008">
+    <name>sound_lake</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a lake sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="009">
+    <name>sound_big_fall</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a louder waterfall? sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00a">
+    <name>sound_sea</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a sea sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00b">
+    <name>sound_fountain</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a fountain sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00c">
+    <name>sound_volcano</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a volcano sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00d">
+    <name>sound_audience</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates an audience sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00e">
+    <name>sound_big_river</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a louder river sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="00f">
+    <name>sound_sand_fall</name>
+    <characteristics/>
+    <files/>
+    <description>
+      This object generates the falling sand sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="010">
+    <name>sound_lift</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a lift sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="011">
+    <name>pochaYogan</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>pochaYogan(BE)</files>
+    <description>
+      This object generates a lava splash effect when a player falls trough the lava fall boundary with the same assigned kcl id.
+    </description>
+    <setting id="1" type="dec">KCL Index</setting>
+  </item>
+  <item key="012">
+    <name>entry</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>entry(E)</files>
+    <description>
+      This object generates a fire around the player when a player falls trough fall boundary with the same assigned id.
+    </description>
+  </item>
+  <item key="013">
+    <name>pochaMori</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files>pochaMori(E)</files>
+    <description>
+      This object generates a leaf "splash" effect when a player falls trough the tree with the same assigned fall boundary id.
+    </description>
+    <setting id="1" type="dec">KCL Index</setting>
+  </item>
+  <item key="014">
+    <name>eline_control</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files/>
+    <description>
+      Unknown controller, found in tracks 1.4, 2.2, 3.4 and 4.1 and in Arena 1.2.
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="8" type="hex">?</setting>
+  </item>
+  <item key="015">
+    <name>sound_Mii</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files/>
+    <description>
+      This object generates a mii crowd sound effect, the range where the sound comes from is controlled by the route. So this object doesn't follow the route but makes use of it.
+    </description>
+  </item>
+  <item key="016">
+    <name>begoman_manager</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files/>
+    <description>Galaxy colosseum spinner manager</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="017">
+    <name>ice</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ice(B)</files>
+    <description>
+      Generates ice around you when you get respawned. The location of the object doesn't matter, if the object is present you'll always get the ice effect.
+    </description>
+  </item>
+  <item key="018">
+    <name>startline2D</name>
+    <characteristics/>
+    <files/>
+    <description>
+      This object generates a finishline at given location, this object is used in competitions where you have to drive laps on a battle course and some others.
+    </description>
+  </item>
+  <item key="065">
+    <name>itembox</name>
+    <characteristics>
+      no route, solid, found in tracks + arenas + other files
+    </characteristics>
+    <files>itembox(B)</files>
+    <description>
+      This is a spinning box with a question mark in it, if you touch it it'll snap and an item lottery begins. After the lottery you'll get the item shown.
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="ids">Item type (player)</setting>
+    <setting id="3" type="hex">Item type (enemy)</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="6" type="hex">timing lottery</setting>
+    <setting id="8" type="hex">?</setting>
+
+    <Entry2 id="0">Random</Entry2>
+    <Entry2 id="1">Banana</Entry2>
+    <Entry2 id="2">Mushroom</Entry2>
+    <Entry2 id="3">Triple Mushroom</Entry2>
+    <Entry2 id="4">Star</Entry2>
+    <Entry2 id="5">Triple Green Shell</Entry2>
+    <Entry2 id="6">Banana or Mushroom</Entry2>
+    <Entry2 id="7">Green Shell</Entry2>
+    <Entry2 id="8">Bomb</Entry2>
+    <Entry2 id="9">Red Shell</Entry2>
+    <Entry2 id="10">Mega Mushroom</Entry2>
+    <Entry2 id="11">Mushroom (s6=6: Lighting)</Entry2>
+    <Entry2 id="12">Star (or Mushroom)</Entry2>
+    <Entry2 id="13">Mushroom</Entry2>
+  </item>
+  <item key="066">
+    <name>DummyPole</name>
+    <characteristics>no route, solid, found in tracks + other files</characteristics>
+    <files/>
+    <description>
+      This is the solidity of the poles of different courses. Deleting this object will cause the Dummy pole itself to be unsolid.
+    </description>
+    <setting id="1" type="hex">Wall KCL Variant</setting>
+  </item>
+  <item key="067">
+    <name>flag</name>
+    <characteristics>solid</characteristics>
+    <files>flag</files>
+    <description/>
+  </item>
+  <item key="068">
+    <name>flagBlend</name>
+    <characteristics>solid</characteristics>
+    <files>flagBlend</files>
+    <description/>
+  </item>
+  <item key="069">
+    <name>gnd_sphere</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06a">
+    <name>gnd_trapezoid</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06b">
+    <name>gnd_wave1</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06c">
+    <name>gnd_wave2</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06d">
+    <name>gnd_wave3</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06e">
+    <name>gnd_wave4</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="06f">
+    <name>sun</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files>sun(B)</files>
+    <description>
+      The sun in the vrcorn, To make the effect use it along with lensFX.
+    </description>
+  </item>
+  <item key="070">
+    <name>woodbox</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>woodbox(BE)</files>
+    <description>
+      A wooden box. When the player touches it, he will slow down and the box will brick and drops an item.
+    </description>
+    <setting id="2" type="ids">Item to give</setting>
+    <setting id="3" type="dec">Chance in 1/100 of giving an item</setting>
+
+    <Entry2 id="0">Banana, Green Shell, FIB</Entry2>
+    <Entry2 id="1">Banana</Entry2>
+    <Entry2 id="2">Mushroom</Entry2>
+    <Entry2 id="3">Mushroom</Entry2>
+    <Entry2 id="4">Star</Entry2>
+    <Entry2 id="5">-</Entry2>
+    <Entry2 id="6">Banana or Mushroom</Entry2>
+    <Entry2 id="7">Green Shell</Entry2>
+    <Entry2 id="8">Bomb</Entry2>
+    <Entry2 id="9">Red Shell</Entry2>
+    <Entry2 id="10">Mega Mushroom</Entry2>
+    <Entry2 id="11">Thundercloud</Entry2>
+    <Entry2 id="12">Star (or Mushroom)</Entry2>
+    <Entry2 id="13">Mushroom</Entry2>
+  </item>
+  <item key="071">
+    <name>KmoonZ</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>KmoonZ(B)</files>
+    <description>The moon of Rainbow Road</description>
+  </item>
+  <item key="072">
+    <name>sunDS</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>sunDS(B)</files>
+    <description>
+      The moving and firesnake dropping sun on DS Desert Hills. It follows a certain route which also controls when the sun drops the snakes. The route setting 1 controls the behavior: 0xa start point, 0xc8 (sun tops moving) and 0x258 (drop a firesnake) are possible values. Only slots 3.1 and 7.1 support this Object. In other slots the object will force a black screen.
+    </description>
+    <setting id="1" type="dec">
+      Delay between standing still and going further in 1/60s.
+    </setting>
+    <setting id="2" type="dec">Delay before starting in 1/60s</setting>
+  </item>
+  <item key="073">
+    <name>coin</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>coin(BE)</files>
+    <description>
+      Present in all battle courses, when touched it disappears and you get +1 point (only in coin runners). Some coins do not appear at the start of the battle but show up later, this can be controlled by the settings.
+    </description>
+    <setting id="2" type="dec">Presence flag/coin ID</setting>
+    <setting id="3" type="dec">Min. before showing up</setting>
+  </item>
+  <item key="074">
+    <name>ironbox</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description>
+      A woodbox which is unbreakable, when touched it acts like a wall.
+    </description>
+  </item>
+  <item key="075">
+    <name>ItemDirect</name>
+    <characteristics/>
+    <files/>
+    <description>
+      An item is placed directly on the ground. Objects like Bullet Bill can't be placed because they are not meant to be dropped. This object doesn't show up at Time Trials.
+    </description>
+    <setting id="1" type="dec">Item type</setting>
+  </item>
+  <item key="076">
+    <name>s_itembox</name>
+    <characteristics>no route, solid, found in tracks + arenas</characteristics>
+    <files>itembox(B)</files>
+    <description>
+      An itembox that acts like a kart, it moves with moving kcl, when placed high it falls until it reaches the ground and when placed on a steep surface it falls. Unlike other itemboxes this itembox has no settings for the item type.
+    </description>
+    <setting id="1" type="dec">[?] Speed</setting>
+    <setting id="7" type="hex">?</setting>
+  </item>
+  <item key="077">
+    <name>pile_coin</name>
+    <characteristics>solid</characteristics>
+    <files>coin(BE)</files>
+    <description>
+      Coin with different texture than normal one; when touched it doesn't disappear but sparks appear.
+    </description>
+  </item>
+  <item key="0c9">
+    <name>f_itembox</name>
+    <characteristics>route needed, solid, found in tracks + other files</characteristics>
+    <files>itembox(B)</files>
+    <description>
+      An route controlled itembox, you can edit it either explodes or loops.
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="ids">Item type (player)</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="dec">Route startpoint</setting>
+
+    <Entry2 id="0">Random</Entry2>
+    <Entry2 id="1">Banana</Entry2>
+    <Entry2 id="2">Mushroom</Entry2>
+    <Entry2 id="3">Triple Mushroom</Entry2>
+    <Entry2 id="4">Star</Entry2>
+    <Entry2 id="5">Triple Green Shell</Entry2>
+    <Entry2 id="6">Banana or Mushroom</Entry2>
+    <Entry2 id="7">Green Shell</Entry2>
+    <Entry2 id="8">Bomb</Entry2>
+    <Entry2 id="9">Red Shell</Entry2>
+    <Entry2 id="10">Mega Mushroom</Entry2>
+    <Entry2 id="11">Mushroom (s6=6: Lighting)</Entry2>
+    <Entry2 id="12">Star (or Mushroom)</Entry2>
+    <Entry2 id="13">Mushroom</Entry2>
+  </item>
+  <item key="0ca">
+    <name>MashBalloonGC</name>
+    <characteristics>route needed, found in tracks + other files</characteristics>
+    <files>MashBalloonGC(B)</files>
+    <description>
+      An airballoon as seen on GCN Mario Circuit. It has an assigned route but also floats from Y to Y.
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Max. Y difference</setting>
+  </item>
+  <item key="0cb">
+    <name>WLwallGC</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>WLwallGC(BK)</files>
+    <description>
+      Big horizontal moving piranha plant coming out a pipe, when touched it acts like a wall. It moves like a sinus.
+    </description>
+    <setting id="1" type="dec">Time inside the pipe</setting>
+    <setting id="2" type="dec">Time outside the pipe</setting>
+    <setting id="3" type="dec">speed</setting>
+    <setting id="4" type="dec">lenght of going</setting>
+    <setting id="5" type="dec">going out first time</setting>
+  </item>
+  <item key="0cc">
+    <name>CarA1</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>CarA1(B)</files>
+    <description>
+      Moving Car from Coconut Mall. It moves exactly like a sinus.
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Acceleration</setting>
+    <setting id="3" type="dec">Time of pause</setting>
+  </item>
+  <item key="0cd">
+    <name>basabasa</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>basabasa(B)</files>
+    <description>
+      Bats following a route, when touched they act like a wall. The bats are released as groups which can be edited in any way. When using this object it is recommed to use values seen in normal Nintendo tracks for s4 and s5 since the way to change them is very strange.
+    </description>
+    <setting id="1" type="dec">Speed (units per 1/60s)</setting>
+    <setting id="2" type="dec">
+      Delay until start of the next group in 1/60s. Multiple groups can be on the way.
+    </setting>
+    <setting id="3" type="dec">Number of bats per group</setting>
+    <setting id="4" type="hex">
+      How far they can get off the route (unknown values).
+    </setting>
+    <setting id="5" type="dec">Strength (unsure)</setting>
+    <setting id="6" type="dec">
+      Maximal amount of bats before terminating (not affected by s3).
+    </setting>
+    <setting id="7" type="dec">Start delay in 1/60s</setting>
+    <setting id="8" type="hex">?</setting>
+  </item>
+  <item key="0ce">
+    <name>HeyhoShipGBA</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>HeyhoShipGBA(B)</files>
+    <description>
+      Shy Guy ship which shoots exploding cannons, it only works on Shy Guy beach slot so be aware of it when making a track with it.
+    </description>
+    <setting id="1" type="dec">speed</setting>
+    <setting id="2" type="dec">how strong it moves up and down</setting>
+  </item>
+  <item key="0cf">
+    <name>koopaBall</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>koopaBall(BE)</files>
+    <description>
+      A gigantic exploding Fireball, used with koopaFigure.
+    </description>
+    <setting id="1" type="dec">speed</setting>
+  </item>
+  <item key="0d0">
+    <name>kart_truck</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>K_truck(B)</files>
+    <description>
+      Truck from MH. Route Setting #1 is for blinking (1=left, 2=right). Route Setting #2 selects the speed (0 or 1).
+    </description>
+    <setting id="1" type="dec">Route startpoint</setting>
+    <setting id="2" type="dec">Speed #0 in 1/60s</setting>
+    <setting id="3" type="dec">Speed #1 in 1/60s</setting>
+    <setting id="4" type="ids">Texture</setting>
+
+    <Entry4 id="0">MooMoo</Entry4>
+    <Entry4 id="1">Fruit</Entry4>
+    <Entry4 id="2">Factory</Entry4>
+  </item>
+  <item key="0d1">
+    <name>car_body</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>K_car_body(B)</files>
+    <description>
+      Car from MH. Route Setting #1 is for blinking (1=left, 2=right). Route Setting #2 selects the speed (0 or 1).
+    </description>
+    <setting id="1" type="dec">Route startpoint</setting>
+    <setting id="2" type="dec">Speed #0 in 1/60s</setting>
+    <setting id="3" type="dec">Speed #1 in 1/60s</setting>
+    <setting id="4" type="ids">Color</setting>
+    <setting id="5" type="hex">?</setting>
+
+    <Entry4 id="0">Blue</Entry4>
+    <Entry4 id="1">Red</Entry4>
+    <Entry4 id="2">Yellow</Entry4>
+  </item>
+  <item key="0d2">
+    <name>skyship</name>
+    <characteristics>route needed, found in tracks + other files</characteristics>
+    <files>skyship(B)</files>
+    <description>Blimp from Luigi Circuit</description>
+    <setting id="1" type="dec">Route startpoint</setting>
+    <setting id="2" type="dec">[?] Speed</setting>
+  </item>
+  <item key="0d3">
+    <name>w_woodbox</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>woodbox(BE)</files>
+    <description>
+      Box following route. Route setting #1 sets the speed (gets added to s1)
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="ids">Item to give</setting>
+    <setting id="3" type="dec">Chance</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="dec">Delay before starting</setting>
+    <setting id="6" type="dec">Time between 2 boxes</setting>
+    <setting id="7" type="dec">Max. amount of boxes</setting>
+
+    <Entry2 id="0">Banana, Green Shell, FIB</Entry2>
+    <Entry2 id="1">Banana</Entry2>
+    <Entry2 id="2">Mushroom</Entry2>
+    <Entry2 id="3">Mushroom</Entry2>
+    <Entry2 id="4">Star</Entry2>
+    <Entry2 id="5">-</Entry2>
+    <Entry2 id="6">Banana or Mushroom</Entry2>
+    <Entry2 id="7">Green Shell</Entry2>
+    <Entry2 id="8">Bomb</Entry2>
+    <Entry2 id="9">Red Shell</Entry2>
+    <Entry2 id="10">Mega Mushroom</Entry2>
+    <Entry2 id="11">Thundercloud</Entry2>
+    <Entry2 id="12">Star (or Mushroom)</Entry2>
+    <Entry2 id="13">Mushroom</Entry2>
+  </item>
+  <item key="0d4">
+    <name>w_itembox</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>itembox(B)</files>
+    <description>Item box following route</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+  </item>
+  <item key="0d5">
+    <name>w_itemboxline</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>Block(BE);itembox(B);Press(BE)</files>
+    <description>
+      A press, block and itembox combination from TF. Each block follows a route until it reach the press. The press converts it to an itembox. The itembox continues the route.
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+  </item>
+  <item key="0d6">
+    <name>VolcanoBall1</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>VolcanoBall1(BE)</files>
+    <description>
+      Firery rock from Grumble Volcano, when created a volcano explosion occurs and it follows the route until it touches a solid part. Then it becomes a fire.
+    </description>
+    <setting id="1" type="dec">Fireball speed</setting>
+    <setting id="2" type="dec">Delay before starting</setting>
+    <setting id="3" type="dec">Time between 2 fireballs</setting>
+    <setting id="4" type="dec">Time until the fire goes out</setting>
+  </item>
+  <item key="0d7">
+    <name>penguin_s</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>penguin_s(BE3D)</files>
+    <description>
+      Small penguin from rSL. Route setting #1: 0x0=default 0x1=Glide 0x2=Animation faster 0x3=Default. Route setting #2 describes the speed when #1 =/= 0x0
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+  </item>
+  <item key="0d8">
+    <name>penguin_m</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>penguin_m(BED)</files>
+    <description>
+      Medium penguin from rSL. Route setting #1: 0x0=default 0x1=Glide 0x2=Animation faster 0x3=Default. Route setting #2 describes the speed when #1 =/= 0x0
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+  </item>
+  <item key="0d9">
+    <name>penguin_l</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>penguin_l(BE)</files>
+    <description>
+      Large penguin from rSL. Route setting #1: 0x0=default 0x1=Glide 0x2=Animation faster 0x3=Default. Route setting #2 describes the speed when #1 =/= 0x0
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+  </item>
+  <item key="0da">
+    <name>castleballoon1</name>
+    <characteristics>route needed, found in tracks + other files</characteristics>
+    <files>castleballoon1(B)</files>
+    <description>Balloon from Mario Circuit</description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Max Y difference</setting>
+  </item>
+  <item key="0db">
+    <name>dossunc</name>
+    <characteristics>optional route, solid, found in tracks</characteristics>
+    <files>dossun(BE)</files>
+    <description>
+      Thwomp with optional route. Without route, settings 2 must be 0.
+    </description>
+    <setting id="1" type="dec">Route speed</setting>
+    <setting id="2" type="ids">Behaviour with route</setting>
+    <setting id="3" type="dec">Start delay in 1/60 sec</setting>
+    <setting id="4" type="dec">Sleep time in 1/60 sec</setting>
+
+    <Entry2 id="0">Thwomp each point</Entry2>
+    <Entry2 id="1">Goes left and right before thwomping</Entry2>
+    <Entry2 id="2">Stays on ground</Entry2>
+  </item>
+  <item key="0dc">
+    <name>dossunc_soko</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="0dd">
+    <name>boble</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>boble(BE)</files>
+    <description>
+      Podoboo from rGBABC3. Route setting #1 controlls the speed (gets added to s1) and #2 = 0x1 means that the model flips horizontally.
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+  </item>
+  <item key="0de">
+    <name>K_bomb_car</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>K_bomb_car(BE)</files>
+    <description>
+      Bomb car from MH. Route Setting #1 is for blinking (1=left, 2=right). Route Setting #2 selects the speed (0 or 1).
+    </description>
+    <setting id="1" type="dec">Route startpoint</setting>
+    <setting id="2" type="dec">Speed #0 in 1/60s</setting>
+    <setting id="3" type="dec">Speed #1 in 1/60s</setting>
+  </item>
+  <item key="0df">
+    <name>K_bomb_car_dummy</name>
+    <characteristics>solid</characteristics>
+    <files>K_bomb_car_dummy</files>
+    <description/>
+  </item>
+  <item key="0e0">
+    <name>car_body_dummy</name>
+    <characteristics>solid</characteristics>
+    <files>car_body_dummy</files>
+    <description/>
+  </item>
+  <item key="0e1">
+    <name>kart_truck_dummy</name>
+    <characteristics>solid</characteristics>
+    <files>kart_truck_dummy</files>
+    <description/>
+  </item>
+  <item key="0e2">
+    <name>hanachan</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>hanachan(BE2D)</files>
+    <description>
+      Wiggler from MT. Route #1 describes delay before going to next point.
+    </description>
+    <setting id="1" type="dec">Speed</setting>
+  </item>
+  <item key="0e3">
+    <name>seagull</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>seagull(B)</files>
+    <description>Bird(s) following route</description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Amount of birds</setting>
+  </item>
+  <item key="0e4">
+    <name>moray</name>
+    <characteristics>route needed, found in tracks + arenas</characteristics>
+    <files>moray(B)</files>
+    <description>Unagi the Eel from KC and CCW</description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="0e5">
+    <name>crab</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>crab(BE3D)</files>
+    <description>
+      Crab from rSGB. Route setting 1 defines the sleeping time in 1/60s.
+    </description>
+    <setting id="1" type="dec">Speed in units per 1/60s</setting>
+    <setting id="2" type="dec">Crab view direction</setting>
+
+    <Entry2 id="0">Left</Entry2>
+    <Entry2 id="1">Right</Entry2>
+  </item>
+  <item key="0e6">
+    <name>basabasa_dummy</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="0e7">
+    <name>CarA2</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>CarA2(B)</files>
+    <description>Moving Car from Coconut Mall</description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Acceleration</setting>
+    <setting id="3" type="dec">Time of pause</setting>
+  </item>
+  <item key="0e8">
+    <name>CarA3</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>CarA3(B)</files>
+    <description>Moving Car from Coconut Mall</description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Acceleration</setting>
+    <setting id="3" type="dec">Time of pause</setting>
+  </item>
+  <item key="0e9">
+    <name>Hwanwan</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>wanwan(BE)</files>
+    <description>Route-following Chain Chomp from rPG</description>
+    <setting id="1" type="dec">Speed</setting>
+    <setting id="2" type="dec">Amount of itemboxes carried</setting>
+  </item>
+  <item key="0ea">
+    <name>HeyhoBallGBA</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>HeyhoBallGBA(BE)</files>
+    <description>Cannonball landing area - rSGB</description>
+    <setting id="1" type="dec">Route ID from where the ship shoots</setting>
+    <setting id="2" type="dec">Time between shot and the arrival</setting>
+  </item>
+  <item key="0eb">
+    <name>Twanwan</name>
+    <characteristics>route needed, solid, found in arenas</characteristics>
+    <files>Twanwan(B)</files>
+    <description>Rolling Chain Chomp</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+  </item>
+  <item key="0ec">
+    <name>cruiserR</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>cruiser(BE)</files>
+    <description>Route-following boat - DC</description>
+    <setting id="1" type="dec">start speed</setting>
+  </item>
+  <item key="0ed">
+    <name>bird</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>bird(B)</files>
+    <description>Bird from rDKM</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="0ee">
+    <name>sin_itembox</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>itembox(B)</files>
+    <description>
+      Itembox, that follows a route back and forth. Speed is like sinus. Route setting #2: 0=asymetric, 1=symetric
+    </description>
+    <setting id="1" type="dec">Cycle time in 1/60 sec</setting>
+    <setting id="5" type="dec">Start delay in 1/60 sec</setting>
+  </item>
+  <item key="0ef">
+    <name>Twanwan_ue</name>
+    <characteristics>solid</characteristics>
+    <files>Twanwan_ue</files>
+    <description/>
+  </item>
+  <item key="0f0">
+    <name>BossHanachan</name>
+    <characteristics>solid</characteristics>
+    <files>hanachan(BE2D)</files>
+    <description/>
+  </item>
+  <item key="0f1">
+    <name>Kdossunc</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="0f2">
+    <name>BossHanachanHead</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="0f3">
+    <name>K_bomb_car1</name>
+    <characteristics>solid</characteristics>
+    <files>K_bomb_car1</files>
+    <description/>
+  </item>
+  <item key="12d">
+    <name>dummy</name>
+    <characteristics/>
+    <files>dummy</files>
+    <description/>
+  </item>
+  <item key="12e">
+    <name>dokan_sfc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>dokan_sfc(B)</files>
+    <description>Pipe from rSNESMC3</description>
+  </item>
+  <item key="12f">
+    <name>castletree1</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>castletree1(B)</files>
+    <description>Tree (unsolid)</description>
+  </item>
+  <item key="130">
+    <name>castletree1c</name>
+    <characteristics>no route, solid, found in tracks + other files</characteristics>
+    <files>castletree1(B)</files>
+    <description>Tree (solid)</description>
+  </item>
+  <item key="131">
+    <name>castletree2</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>castletree2(B)</files>
+    <description>Tree (2.5D effect)</description>
+  </item>
+  <item key="132">
+    <name>castleflower1</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>castleflower1(B)</files>
+    <description>Flower from MC</description>
+  </item>
+  <item key="133">
+    <name>mariotreeGC</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>mariotreeGC(B)</files>
+    <description>Tree from rGCNMC (unsolid)</description>
+  </item>
+  <item key="134">
+    <name>mariotreeGCc</name>
+    <characteristics>no route, solid, found in tracks + other files</characteristics>
+    <files>mariotreeGC(B)</files>
+    <description>Tree from rGCNMC (solid)</description>
+  </item>
+  <item key="135">
+    <name>donkytree1GC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>donkytree1GC(B)</files>
+    <description>Tree from rDKM (brown stalk)</description>
+  </item>
+  <item key="136">
+    <name>donkytree2GC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>donkytree2GC(B)</files>
+    <description>Tree from rDKM (green stalk)</description>
+  </item>
+  <item key="137">
+    <name>peachtreeGC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>peachtreeGC(B)</files>
+    <description>Tree from rPB (unsolid)</description>
+  </item>
+  <item key="138">
+    <name>peachtreeGCc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>peachtreeGC(B)</files>
+    <description>Tree from rPB (solid)</description>
+  </item>
+  <item key="139">
+    <name>npc_mii_a</name>
+    <characteristics/>
+    <files>npc_mii_a</files>
+    <description/>
+  </item>
+  <item key="13a">
+    <name>npc_mii_b</name>
+    <characteristics/>
+    <files>npc_mii_b</files>
+    <description/>
+  </item>
+  <item key="13b">
+    <name>npc_mii_c</name>
+    <characteristics/>
+    <files>npc_mii_c</files>
+    <description/>
+  </item>
+  <item key="13c">
+    <name>obakeblockSFCc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>obakeblockSFC(B)</files>
+    <description>
+      Falling blocks from rSNESGV2, will only work on slot 5.3.
+    </description>
+    <setting id="2" type="dec">
+      Time trial and online: T=S2+S3/60. If T>0: delay for automatic fall down since begin of count down in seconds.
+    </setting>
+    <setting id="3" type="dec">Time trial and online: Add value/60 to setting #2</setting>
+  </item>
+  <item key="13d">
+    <name>WLarrowGC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>WLarrowGC(B)</files>
+    <description>Arrow with eyes from rWS</description>
+  </item>
+  <item key="13e">
+    <name>WLscreenGC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>WLscreenGC(B)</files>
+    <description>TV from rWS. Nintendo disables it online (PFlag=9)</description>
+  </item>
+  <item key="13f">
+    <name>WLdokanGC</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>WLdokanGC(BK)</files>
+    <description>Big pipe from rWS</description>
+  </item>
+  <item key="140">
+    <name>MarioGo64c</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>MarioGo64(B)</files>
+    <description>The "GO" sign from r64MC</description>
+  </item>
+  <item key="141">
+    <name>PeachHunsuiGC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>PeachHunsuiGC(BE)</files>
+    <description>Fountain from rPB</description>
+  </item>
+  <item key="142">
+    <name>kinokoT1</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>kinokoT1(B)</files>
+    <description/>
+  </item>
+  <item key="143">
+    <name>kinokoT2</name>
+    <characteristics>solid</characteristics>
+    <files>kinokoT2</files>
+    <description/>
+  </item>
+  <item key="144">
+    <name>pylon01</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>pylon01(B)</files>
+    <description>
+      Street cone - DC. Only slots 3.1 and 7.1 support this Object. In other slots the object will force a black screen.
+    </description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="145">
+    <name>PalmTree</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>PalmTree(B)</files>
+    <description>Palmtree - CM</description>
+  </item>
+  <item key="146">
+    <name>parasol</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>parasol(B)</files>
+    <description>Parasol - CM</description>
+  </item>
+  <item key="147">
+    <name>cruiser</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>cruiser(BE)</files>
+    <description>Boat from DC</description>
+  </item>
+  <item key="148">
+    <name>K_sticklift00</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>K_sticklift00(B)</files>
+    <description/>
+  </item>
+  <item key="149">
+    <name>heyho2</name>
+    <characteristics>route needed, found in tracks</characteristics>
+    <files>heyho2(B);K_chairlift00(B)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="14a">
+    <name>HeyhoTreeGBAc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>HeyhoTreeGBA(B)</files>
+    <description>Palmtree from rSGB</description>
+  </item>
+  <item key="14b">
+    <name>MFaceBill</name>
+    <characteristics/>
+    <files>MFaceBill</files>
+    <description/>
+  </item>
+  <item key="14c">
+    <name>truckChimSmk</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>truckChimSmk(BE)</files>
+    <description>Smoke generator</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="14d">
+    <name>MiiObj01</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>MiiObj01(B)</files>
+    <description/>
+  </item>
+  <item key="14e">
+    <name>MiiObj02</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>MiiObj02(B)</files>
+    <description/>
+  </item>
+  <item key="14f">
+    <name>MiiObj03</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>MiiObj03(B)</files>
+    <description/>
+  </item>
+  <item key="150">
+    <name>gardentreeDS</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>gardentreeDS(B)</files>
+    <description>Tree from rPG, not solid</description>
+  </item>
+  <item key="151">
+    <name>gardentreeDSc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>gardentreeDS(B)</files>
+    <description>Tree from rPG, solid</description>
+  </item>
+  <item key="152">
+    <name>FlagA1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagA1(B)</files>
+    <description/>
+  </item>
+  <item key="153">
+    <name>FlagA2</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagA2(B)</files>
+    <description/>
+  </item>
+  <item key="154">
+    <name>FlagB1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagB1(B)</files>
+    <description>"W" Flag from WGM</description>
+  </item>
+  <item key="155">
+    <name>FlagB2</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>FlagB2(B)</files>
+    <description>"L" Flag from LC</description>
+  </item>
+  <item key="156">
+    <name>FlagA3</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagA3(B)</files>
+    <description/>
+  </item>
+  <item key="157">
+    <name>DKtreeA64</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DKtreeA64(B)</files>
+    <description>rDKJP Tree (large leaves), non-solid</description>
+  </item>
+  <item key="158">
+    <name>DKtreeA64c</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>DKtreeA64(B)</files>
+    <description>rDKJP Tree (large leaves), solid</description>
+  </item>
+  <item key="159">
+    <name>DKtreeB64</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DKtreeB64(B)</files>
+    <description>rDKJP Tree (small leaves), non-solid</description>
+  </item>
+  <item key="15a">
+    <name>DKtreeB64c</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>DKtreeB64(B)</files>
+    <description>rDKJP Tree (small leaves), solid</description>
+  </item>
+  <item key="15b">
+    <name>TownTreeDSc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>TownTreeDS(B)</files>
+    <description>Tree from rDS, solid</description>
+  </item>
+  <item key="15c">
+    <name>Piston</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Piston(B)</files>
+    <description>Decoration from TF</description>
+  </item>
+  <item key="15d">
+    <name>oilSFC</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>oilSFC(B)</files>
+    <description>Oil puddle (rSNESMC3)</description>
+  </item>
+  <item key="15e">
+    <name>DKmarutaGCc</name>
+    <characteristics/>
+    <files>DKmarutaGC</files>
+    <description/>
+  </item>
+  <item key="15f">
+    <name>DKropeGCc</name>
+    <characteristics>solid</characteristics>
+    <files>DKropeGC</files>
+    <description/>
+  </item>
+  <item key="160">
+    <name>mii_balloon</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>mii_balloon(B)</files>
+    <description/>
+  </item>
+  <item key="161">
+    <name>windmill</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>windmill(B)</files>
+    <description>Decoration from MMF</description>
+  </item>
+  <item key="162">
+    <name>dossun</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>dossun(BE)</files>
+    <description>Unsolid thwomp, (caged) decoration N64BC</description>
+  </item>
+  <item key="163">
+    <name>TownTreeDS</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>TownTreeDS(B)</files>
+    <description>Tree from rDS, not solid</description>
+  </item>
+  <item key="164">
+    <name>Ksticketc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>Ksticketc(B)</files>
+    <description>Port, opens when approaching</description>
+  </item>
+  <item key="165">
+    <name>monte_a</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>monte_a(B)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="166">
+    <name>MiiStatueM1</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>MiiStatueM1(B)</files>
+    <description/>
+  </item>
+  <item key="167">
+    <name>ShMiiObj01</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ShMiiObj01(B)</files>
+    <description/>
+  </item>
+  <item key="168">
+    <name>ShMiiObj02</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ShMiiObj02(B)</files>
+    <description/>
+  </item>
+  <item key="169">
+    <name>ShMiiObj03</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ShMiiObj03(B)</files>
+    <description/>
+  </item>
+  <item key="16a">
+    <name>Hanabi</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Hanabi(E)</files>
+    <description>Fireworks (used in cutsene tracks)</description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="16b">
+    <name>miiposter</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>miiposter(B)</files>
+    <description/>
+  </item>
+  <item key="16c">
+    <name>dk_miiobj00</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>dk_miiobj00(B)</files>
+    <description/>
+  </item>
+  <item key="16d">
+    <name>light_house</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>light_house(B)</files>
+    <description>Light from DC</description>
+  </item>
+  <item key="16e">
+    <name>r_parasol</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>r_parasol(B)</files>
+    <description>Parasol from rSGB</description>
+    <setting id="1" type="dec">Starting state (opened or closed)</setting>
+  </item>
+  <item key="16f">
+    <name>obakeblock2SFCc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>obakeblockSFC(B)</files>
+    <description>
+      Falling blocks from rSNESGV2, will only work on slot 5.3.
+    </description>
+    <setting id="2" type="dec">
+      Time trial and online: T=S2+S3/60. If T>0: delay for automatic fall down since begin of count down in seconds.
+    </setting>
+    <setting id="3" type="dec">Time trial and online: Add value/60 to setting #2</setting>
+  </item>
+  <item key="170">
+    <name>obakeblock3SFCc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>obakeblockSFC(B)</files>
+    <description>
+      Falling blocks from rSNESGV2, will only work on slot 5.3.
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="dec">
+      Time trial and online: T=S2+S3/60. If T>0: delay for automatic fall down since begin of count down in seconds.
+    </setting>
+    <setting id="3" type="dec">Time trial and online: Add value/60 to setting #2</setting>
+  </item>
+  <item key="171">
+    <name>koopaFigure</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>koopaFigure(B2D)</files>
+    <description>Bowser statue from BC</description>
+  </item>
+  <item key="172">
+    <name>pukupuku</name>
+    <characteristics>no route, found in tracks + arenas</characteristics>
+    <files>pukupuku(B)</files>
+    <description>Cheep Cheep</description>
+  </item>
+  <item key="173">
+    <name>v_stand1</name>
+    <characteristics/>
+    <files>v_stand1</files>
+    <description/>
+  </item>
+  <item key="174">
+    <name>v_stand2</name>
+    <characteristics/>
+    <files>v_stand2</files>
+    <description/>
+  </item>
+  <item key="175">
+    <name>leaf_effect</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>leaf_effect(E)</files>
+    <description>
+      Leaf effect when you drive/fly through tree leafs (use AREA).
+    </description>
+  </item>
+  <item key="176">
+    <name>karehayama</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>karehayama(BE)</files>
+    <description>Leaf pile (MT)</description>
+    <setting id="2" type="ids">Item to give</setting>
+    <setting id="3" type="dec">Chance of dropping items</setting>
+
+    <Entry2 id="0">Banana, Green Shell, FIB</Entry2>
+    <Entry2 id="1">Banana</Entry2>
+    <Entry2 id="2">Mushroom</Entry2>
+    <Entry2 id="3">Mushroom</Entry2>
+    <Entry2 id="4">Star</Entry2>
+    <Entry2 id="5">-</Entry2>
+    <Entry2 id="6">Banana or Mushroom</Entry2>
+    <Entry2 id="7">Green Shell</Entry2>
+    <Entry2 id="8">Bomb</Entry2>
+    <Entry2 id="9">Red Shell</Entry2>
+    <Entry2 id="10">Mega Mushroom</Entry2>
+    <Entry2 id="11">Thundercloud</Entry2>
+    <Entry2 id="12">Star (or Mushroom)</Entry2>
+    <Entry2 id="13">Mushroom</Entry2>
+  </item>
+  <item key="177">
+    <name>EarthRing</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>EarthRing(B)</files>
+    <description/>
+  </item>
+  <item key="178">
+    <name>SpaceSun</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>SpaceSun(B)</files>
+    <description>The sun in RR</description>
+  </item>
+  <item key="179">
+    <name>BlackHole</name>
+    <characteristics/>
+    <files>BlackHole</files>
+    <description/>
+  </item>
+  <item key="17a">
+    <name>StarRing</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>StarRing(BE)</files>
+    <description>The Launch Star from RR</description>
+  </item>
+  <item key="17b">
+    <name>M_obj_kanban</name>
+    <characteristics/>
+    <files>M_obj_kanban</files>
+    <description/>
+  </item>
+  <item key="17c">
+    <name>MiiStatueL1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiStatueL1(B)</files>
+    <description/>
+  </item>
+  <item key="17d">
+    <name>MiiStatueD1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiStatueD1(B)</files>
+    <description/>
+  </item>
+  <item key="17e">
+    <name>MiiSphinxY1</name>
+    <characteristics/>
+    <files>MiiSphinxY1</files>
+    <description>Yoshi Sphinx from DDR</description>
+  </item>
+  <item key="17f">
+    <name>MiiSphinxY2</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiSphinxY2(B)</files>
+    <description>Yoshi Sphinx from DDR</description>
+  </item>
+  <item key="180">
+    <name>FlagA5</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagA5(B)</files>
+    <description/>
+  </item>
+  <item key="181">
+    <name>CarB</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>CarB(B)</files>
+    <description>Non Solid Car Decorations from CM</description>
+  </item>
+  <item key="182">
+    <name>FlagA4</name>
+    <characteristics/>
+    <files>FlagA4</files>
+    <description/>
+  </item>
+  <item key="183">
+    <name>Steam</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Steam(E)</files>
+    <description>Steam effect from TF</description>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="184">
+    <name>Alarm</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Alarm(E)</files>
+    <description>Alarm effect from TF</description>
+  </item>
+  <item key="185">
+    <name>group_monte_a</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>group_monte_a(B)</files>
+    <description>Pianta audience</description>
+  </item>
+  <item key="186">
+    <name>MiiStatueL2</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>MiiStatueL2(B)</files>
+    <description/>
+  </item>
+  <item key="187">
+    <name>MiiStatueD2</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>MiiStatueD2(B)</files>
+    <description/>
+  </item>
+  <item key="188">
+    <name>MiiStatueP1</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>MiiStatueP1(B)</files>
+    <description/>
+  </item>
+  <item key="189">
+    <name>SentakuDS</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>SentakuDS(B)</files>
+    <description>Hanging clothes decoration</description>
+  </item>
+  <item key="18a">
+    <name>fks_screen_wii</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>fks_screen_wii(B)</files>
+    <description>TV from FS</description>
+  </item>
+  <item key="18b">
+    <name>KoopaFigure64</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>KoopaFigure64(BE)</files>
+    <description>Bowser statue from r64BC</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="18c">
+    <name>b_teresa</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>b_teresa(B)</files>
+    <description>
+      Flying boo (ghost) from rSNESGV2 controlled by AREA type 7. Use exact one object.
+    </description>
+  </item>
+  <item key="18d">
+    <name>MiiStatueDK1</name>
+    <characteristics/>
+    <files>MiiStatueDK1</files>
+    <description/>
+  </item>
+  <item key="18e">
+    <name>MiiKanban</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>MiiKanban(B)</files>
+    <description/>
+  </item>
+  <item key="18f">
+    <name>BGteresaSFC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>BGteresaSFC(B)</files>
+    <description>Flying boo (ghost) from rSNESGV2</description>
+  </item>
+  <item key="191">
+    <name>kuribo</name>
+    <characteristics>route needed, solid, found in tracks + other files</characteristics>
+    <files>kuribo(B2D)</files>
+    <description>Goomba</description>
+    <setting id="1" type="dec">Respawn Time</setting>
+    <setting id="2" type="dec">Speed</setting>
+    <setting id="3" type="dec">Animation speed</setting>
+  </item>
+  <item key="192">
+    <name>choropu</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>choropu(BE)</files>
+    <description>
+      Moving Monty Mole. Don't use it togehther with ''choropu2''.
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="193">
+    <name>cow</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>cow(B5D)</files>
+    <description>
+      A master cow following a route followed by some more cows (from MMF). The master cow starts at the first point of the route, all other cows around the object position.
+    </description>
+    <setting id="1" type="dec">
+      Number of slave cows following the master cow unordered.
+    </setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="dec">
+      Start delay of the slave cows in 1/60s. The master cow starts a few seconds earlier.
+    </setting>
+  </item>
+  <item key="194">
+    <name>pakkun_f</name>
+    <characteristics>no route, solid, found in tracks + other files</characteristics>
+    <files>pakkun_f(B2D)</files>
+    <description>Piranha Plant from rGCNMC</description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="195">
+    <name>WLfirebarGC</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>WLfirebarGC(B)</files>
+    <description>Rotating fire bars from rWS</description>
+    <setting id="1" type="dec">Fireballs per arm</setting>
+    <setting id="2" type="dec">Rotations per 360s</setting>
+    <setting id="3" type="dec">Fireball distance</setting>
+    <setting id="4" type="dec">Number or arms</setting>
+  </item>
+  <item key="196">
+    <name>wanwan</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>wanwan(BE)</files>
+    <description>Chain Chomp</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+  </item>
+  <item key="197">
+    <name>poihana</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>poihana(BE2D)</files>
+    <description>
+      Cataquack (the monster that flings you into the air) from rPB
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="198">
+    <name>DKrockGC</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>DKrockGC(BE)</files>
+    <description>Falling rock from rDKM</description>
+    <setting id="1" type="dec">not 0: Delay of ~1.5s for the second rock</setting>
+    <setting id="2" type="dec">Minimal cycle time in 1/60s</setting>
+    <setting id="3" type="dec">Speed</setting>
+    <setting id="4" type="dec">Bouncing factor</setting>
+  </item>
+  <item key="199">
+    <name>sanbo</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>sanbo(BED)</files>
+    <description>Pokey</description>
+    <setting id="1" type="dec">Amount of points in the assigned route</setting>
+  </item>
+  <item key="19a">
+    <name>choropu2</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>choropu(BE)</files>
+    <description>
+      Monty Mole from rPG. Don't use it togehther with ''choropu''.
+    </description>
+    <setting id="1" type="dec">Hide time in 1/60s, add ~2.6s for cycle time</setting>
+    <setting id="2" type="dec">Start delay in 1/60s</setting>
+  </item>
+  <item key="19b">
+    <name>TruckWagon</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>TruckWagon(BE)</files>
+    <description>Truck from WGM</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="19c">
+    <name>heyho</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>heyho(B)</files>
+    <description>Shy Guy obstacle from DKS</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="19d">
+    <name>Press</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>Press(BE)</files>
+    <description>
+      The press from TF (over the belts). The entered position is the sleeping position. So place it over the ground (600 is a good value). The total cycle time depends on the sleep time and the falling height.
+    </description>
+    <setting id="2" type="dec">Start delay in 1/60s</setting>
+    <setting id="3" type="dec">
+      Sleep time in 1/60s. Special case 0: one time shoot.
+    </setting>
+  </item>
+  <item key="19e">
+    <name>Press_soko</name>
+    <characteristics/>
+    <files/>
+    <description/>
+  </item>
+  <item key="19f">
+    <name>pile</name>
+    <characteristics>solid</characteristics>
+    <files>pile</files>
+    <description/>
+  </item>
+  <item key="1a0">
+    <name>choropu_ground</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="1a1">
+    <name>WLfireringGC</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>WLfirebarGC(B)</files>
+    <description>Rotating fire rings from rWS</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="1a2">
+    <name>pakkun_dokan</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>pakkun_dokan(B)</files>
+    <description>Pipe of potted piranha plant</description>
+  </item>
+  <item key="1a3">
+    <name>begoman_spike</name>
+    <characteristics>no route, solid, found in other files</characteristics>
+    <files>begoman_spike(BE)</files>
+    <description>Topman from GC/GA</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+    <setting id="8" type="hex">?</setting>
+  </item>
+  <item key="1a4">
+    <name>FireSnake</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>FireSnake(BE)</files>
+    <description>Grounded Podoboo from rDSDH</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="1a5">
+    <name>koopaFirebar</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>koopaFirebar(B);WLfirebarGC(B)</files>
+    <description>Rotating firebar from BC</description>
+    <setting id="1" type="dec"># of fireball groups</setting>
+    <setting id="2" type="dec">Fireball Distance</setting>
+    <setting id="3" type="dec"># of fireballs per row</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="1a6">
+    <name>Epropeller</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>Epropeller(BE)</files>
+    <description>Electric propeller from KC</description>
+    <setting id="1" type="dec">Rotations per 12 sec</setting>
+    <setting id="2" type="ids">Direction</setting>
+
+    <Entry2 id="0">Clockwise</Entry2>
+    <Entry2 id="1">Counterclockwise</Entry2>
+  </item>
+  <item key="1a7">
+    <name>dc_pillar_c</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="1a8">
+    <name>FireSnake_v</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>FireSnake(BE)</files>
+    <description>Grounded Podoboo from GV</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="1a9">
+    <name>honeBall</name>
+    <characteristics>solid</characteristics>
+    <files>honeBall</files>
+    <description>Fireball, Part of other id</description>
+  </item>
+  <item key="1aa">
+    <name>puchi_pakkun</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>puchi_pakkun(BD)</files>
+    <description>Small Pirahna Plants from rMR</description>
+  </item>
+  <item key="1ab">
+    <name>sanbo_big</name>
+    <characteristics>solid</characteristics>
+    <files>sanbo(BED)</files>
+    <description/>
+  </item>
+  <item key="1ac">
+    <name>sanbo_big.2</name>
+    <characteristics>solid</characteristics>
+    <files>sanbo(BED)</files>
+    <description/>
+  </item>
+  <item key="1f5">
+    <name>kinoko_ud</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>kinoko(B4K)</files>
+    <description>Moving decoration mushroom from MG</description>
+    <setting id="1" type="dec">
+      [?] Texturing: 0 = Light, 1 = Dark
+    </setting>
+  </item>
+  <item key="1f6">
+    <name>kinoko_bend</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>kinoko(B4K)</files>
+    <description>Bouncy mushroom</description>
+    <setting id="1" type="ids">Texturing</setting>
+    
+    <Entry1 id="0">Light</Entry1>
+    <Entry1 id="1">Dark</Entry1>
+  </item>
+  <item key="1f7">
+    <name>VolcanoRock1</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>VolcanoRock1(B2K)</files>
+    <description>
+      Floating drivable rock (at GV in the lava), it goes up and down and left and right.
+    </description>
+    <setting id="1" type="dec">Model/Effect/KCL file to use (0 or 1)</setting>
+    <setting id="2" type="dec">Time to go from x1 to x2 and back (1/60s)</setting>
+    <setting id="3" type="dec">Max X movement in both directions</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="dec">Y movement speed in units/sec</setting>
+    <setting id="6" type="dec">Max Y movement</setting>
+  </item>
+  <item key="1f8">
+    <name>bulldozer_left</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>bulldozer_left(BK)</files>
+    <description>The moving bulldoser from TF</description>
+    <setting id="2" type="dec">Movement Distance</setting>
+    <setting id="3" type="dec">Movement Time</setting>
+    <setting id="4" type="dec">Time before starting</setting>
+    <setting id="5" type="dec">Time of standing still</setting>
+  </item>
+  <item key="1f9">
+    <name>bulldozer_right</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>bulldozer_right(BK)</files>
+    <description>The moving bulldoser from TF</description>
+    <setting id="2" type="dec">Movement Distance</setting>
+    <setting id="3" type="dec">Movement Time</setting>
+    <setting id="4" type="dec">Time before starting</setting>
+    <setting id="5" type="dec">Time of standing still</setting>
+  </item>
+  <item key="1fa">
+    <name>kinoko_nm</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>kinoko(B4K)</files>
+    <description>Green mushroom</description>
+    <setting id="1" type="ids">Texturing</setting>
+
+    <Entry1 id="0">Light</Entry1>
+    <Entry1 id="1">Dark</Entry1>
+  </item>
+  <item key="1fb">
+    <name>Crane</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>Crane(BK)</files>
+    <description>Decoration from TF</description>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="1fc">
+    <name>VolcanoPiece</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>VolcanoPiece1(B42K)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+    <setting id="8" type="hex">?</setting>
+  </item>
+  <item key="1fd">
+    <name>FlamePole</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>FlamePole(BEK)</files>
+    <description>Ground fire geyser from BC</description>
+    <setting id="1" type="dec">Cycle time in x/60 sec + 9s</setting>
+    <setting id="2" type="dec">Start delay in 1/60s</setting>
+    <setting id="3" type="dec">Size factor</setting>
+  </item>
+  <item key="1fe">
+    <name>TwistedWay</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>TwistedWay(B)</files>
+    <description>Moving section from BC</description>
+  </item>
+  <item key="1ff">
+    <name>TownBridgeDSc</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>TownBridgeDS(B3K)</files>
+    <description>Bridge of rDS</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="200">
+    <name>DKship64</name>
+    <characteristics>route needed, solid, found in tracks</characteristics>
+    <files>DKship64(BE);group_enemy_a(B);group_enemy_b(B)</files>
+    <description>Ship from rDKJP</description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="201">
+    <name>kinoko_kuki</name>
+    <characteristics>solid</characteristics>
+    <files/>
+    <description/>
+  </item>
+  <item key="202">
+    <name>DKturibashiGCc</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DKturibashiGC(B)</files>
+    <description>Bridge from rDKM</description>
+  </item>
+  <item key="203">
+    <name>FlamePoleEff</name>
+    <characteristics>solid</characteristics>
+    <files>FlamePoleEff</files>
+    <description/>
+  </item>
+  <item key="204">
+    <name>aurora</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>aurora(B)</files>
+    <description>Moving section from RR</description>
+  </item>
+  <item key="205">
+    <name>venice_saku</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>venice_saku(BK)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="206">
+    <name>casino_roulette</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>casino_roulette(BK)</files>
+    <description>Almost the entirety of CCR</description>
+  </item>
+  <item key="207">
+    <name>BossField01_OBJ1</name>
+    <characteristics>solid</characteristics>
+    <files>BossField01_OBJ1</files>
+    <description/>
+  </item>
+  <item key="208">
+    <name>dc_pillar</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>dc_pillar(BEK)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="209">
+    <name>dc_sandcone</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>dc_sandcone(BEK)</files>
+    <description>Pile of sand from DDR</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="20a">
+    <name>venice_hasi</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>venice_hasi(BEK)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="20b">
+    <name>venice_gondola</name>
+    <characteristics>solid</characteristics>
+    <files>venice_gondola;monte_a(B)</files>
+    <description/>
+  </item>
+  <item key="20c">
+    <name>quicksand</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>quicksand(BE);dossun(BE)</files>
+    <description>TD controller</description>
+  </item>
+  <item key="20d">
+    <name>bblock</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>bblock1(B18K);MiiStatue1</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="20e">
+    <name>ami</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ami(B)</files>
+    <description>Bouncing bridge from MT</description>
+  </item>
+  <item key="20f">
+    <name>M_obj_jump</name>
+    <characteristics>solid</characteristics>
+    <files>M_obj_jump</files>
+    <description>Trick ramp used on (backwards)competitions</description>
+  </item>
+  <item key="210">
+    <name>starGate</name>
+    <characteristics>solid</characteristics>
+    <files>starGate</files>
+    <description>The gates used in some competitions</description>
+    <setting id="2" type="dec">Number (ordered)</setting>
+    <setting id="3" type="dec">Trigger</setting>
+  </item>
+  <item key="211">
+    <name>RM_ring1</name>
+    <characteristics>route needed, solid, found in other files</characteristics>
+    <files>RM_ring1(B8K)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="212">
+    <name>FlamePole_v</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>FlamePole_v(BE)</files>
+    <description>Fire geyser without a base - GV, BC and r64BC</description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="dec">Start delay in 1/60 sec</setting>
+    <setting id="3" type="dec">A scale factor</setting>
+    <setting id="4" type="dec">Cycle time in x/60 + 8.25s</setting>
+  </item>
+  <item key="213">
+    <name>M_obj_s_jump</name>
+    <characteristics>solid</characteristics>
+    <files>M_obj_s_jump</files>
+    <description>Ramp used on competitions</description>
+  </item>
+  <item key="214">
+    <name>InsekiA</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>InsekiA(B)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="215">
+    <name>InsekiB</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>InsekiB(B)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="216">
+    <name>FlamePole_v_big</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>FlamePole_v_big(E);FlamePole_v(BE)</files>
+    <description>
+      Really, really big fire geyser without a base - r64BC
+    </description>
+    <setting id="1" type="hex">?</setting>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+  </item>
+  <item key="217">
+    <name>Mdush</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>Mdush(BK)</files>
+    <description>Small jump ramp - MC</description>
+  </item>
+  <item key="218">
+    <name>HP_pipe</name>
+    <characteristics>solid</characteristics>
+    <files>HP_pipe</files>
+    <description/>
+  </item>
+  <item key="219">
+    <name>DemoCol</name>
+    <characteristics>no route, solid, found in other files</characteristics>
+    <files>DemoCol(BK)</files>
+    <description/>
+  </item>
+  <item key="21a">
+    <name>M_obj_s_jump2</name>
+    <characteristics>solid</characteristics>
+    <files>M_obj_s_jump2</files>
+    <description/>
+  </item>
+  <item key="21b">
+    <name>M_obj_jump2</name>
+    <characteristics>solid</characteristics>
+    <files>M_obj_jump2</files>
+    <description/>
+  </item>
+  <item key="259">
+    <name>DonkyCannonGC</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DonkyCannonGC(BED)</files>
+    <description>DK cannon from rDKM</description>
+  </item>
+  <item key="25a">
+    <name>BeltEasy</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>BeltEasy(B)</files>
+    <description>First set of belts from TF</description>
+  </item>
+  <item key="25b">
+    <name>BeltCrossing</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>BeltCrossing(B)</files>
+    <description>Second set of belts from TF</description>
+  </item>
+  <item key="25c">
+    <name>BeltCurveA</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>BeltCurveA(B)</files>
+    <description>Third set of belts from TF</description>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="25d">
+    <name>BeltCurveB</name>
+    <characteristics/>
+    <files>BeltCurveB</files>
+    <description/>
+  </item>
+  <item key="25e">
+    <name>escalator</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>escalator(BK)</files>
+    <description>CM escalator</description>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+  </item>
+  <item key="25f">
+    <name>DonkyCannon_wii</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DonkyCannon_wii(BED)</files>
+    <description>DK cannon from DKSC/DKS</description>
+  </item>
+  <item key="260">
+    <name>escalator_group</name>
+    <characteristics>no route, solid, found in tracks</characteristics>
+    <files>escalator(BK);monte_a(B)</files>
+    <description>2 Time Escalators from CM</description>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+  </item>
+  <item key="261">
+    <name>tree_cannon</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>tree_cannon(BED)</files>
+    <description>Cannon from MT</description>
+  </item>
+  <item key="2bd">
+    <name>group_enemy_b</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>group_enemy_b(B)</files>
+    <description>Enemy audience</description>
+  </item>
+  <item key="2be">
+    <name>group_enemy_c</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>group_enemy_c(B)</files>
+    <description>Enemy audience</description>
+  </item>
+  <item key="2bf">
+    <name>taimatsu</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>taimatsu(E)</files>
+    <description>Torch from rDKJP (Inside the cave)</description>
+  </item>
+  <item key="2c0">
+    <name>truckChimSmkW</name>
+    <characteristics>no route, solid, found in arenas</characteristics>
+    <files>truckChimSmkW(BE)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+  </item>
+  <item key="2c1">
+    <name>Mstand</name>
+    <characteristics/>
+    <files>Mstand</files>
+    <description/>
+  </item>
+  <item key="2c2">
+    <name>dkmonitor</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>dkmonitor(B)</files>
+    <description/>
+  </item>
+  <item key="2c3">
+    <name>group_enemy_a</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>group_enemy_a(B)</files>
+    <description/>
+  </item>
+  <item key="2c4">
+    <name>FlagB3</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagB3(B)</files>
+    <description>Bright Shell Flag from KC</description>
+  </item>
+  <item key="2c5">
+    <name>spot</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>spot(B)</files>
+    <description/>
+  </item>
+  <item key="2c6">
+    <name>group_enemy_d</name>
+    <characteristics/>
+    <files>group_enemy_d</files>
+    <description/>
+  </item>
+  <item key="2c7">
+    <name>FlagB4</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FlagB4(B)</files>
+    <description>Dark Shell Flag from KC</description>
+  </item>
+  <item key="2c8">
+    <name>group_enemy_e</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>group_enemy_e(B)</files>
+    <description/>
+  </item>
+  <item key="2c9">
+    <name>group_monte_L</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>group_monte_a(B)</files>
+    <description/>
+  </item>
+  <item key="2ca">
+    <name>group_enemy_f</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>group_enemy_f(B)</files>
+    <description/>
+  </item>
+  <item key="2cb">
+    <name>FallBsA</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FallBsA(E)</files>
+    <description/>
+  </item>
+  <item key="2cc">
+    <name>FallBsB</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>FallBsB(E)</files>
+    <description/>
+  </item>
+  <item key="2cd">
+    <name>FallBsC</name>
+    <characteristics/>
+    <files>FallBsC</files>
+    <description/>
+  </item>
+  <item key="2ce">
+    <name>volsmk</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>volsmk(E)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+    <setting id="5" type="hex">?</setting>
+    <setting id="6" type="hex">?</setting>
+    <setting id="7" type="hex">?</setting>
+  </item>
+  <item key="2cf">
+    <name>ridgemii00</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>ridgemii00(B)</files>
+    <description/>
+  </item>
+  <item key="2d0">
+    <name>Flash_L</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Flash_L(E)</files>
+    <description/>
+  </item>
+  <item key="2d1">
+    <name>Flash_B</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Flash_B(E)</files>
+    <description/>
+  </item>
+  <item key="2d2">
+    <name>Flash_W</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Flash_W(E)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="2d3">
+    <name>Flash_M</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Flash_M(E)</files>
+    <description/>
+  </item>
+  <item key="2d4">
+    <name>Flash_S</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>Flash_S(E)</files>
+    <description/>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="2d5">
+    <name>MiiSignNoko</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiSignNoko(B)</files>
+    <description/>
+  </item>
+  <item key="2d6">
+    <name>UtsuboDokan</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>UtsuboDokan(B)</files>
+    <description/>
+  </item>
+  <item key="2d7">
+    <name>Spot64</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>Spot64(B)</files>
+    <description/>
+  </item>
+  <item key="2d8">
+    <name>DemoEf</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files>DemoEf(E)</files>
+    <description/>
+  </item>
+  <item key="2d9">
+    <name>Fall_MH</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Fall_MH(E)</files>
+    <description>Part of the waterfall effect from MH</description>
+  </item>
+  <item key="2da">
+    <name>Fall_Y</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>Fall_Y(E)</files>
+    <description>Part of the waterfall effects from rYF</description>
+    <setting id="1" type="hex">?</setting>
+  </item>
+  <item key="2db">
+    <name>DemoJugemu</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files>DemoJugemu(BE)</files>
+    <description/>
+  </item>
+  <item key="2dc">
+    <name>group_enemy_a_demo</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files>group_enemy_a_demo(B)</files>
+    <description/>
+  </item>
+  <item key="2dd">
+    <name>group_monte_a_demo</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files>group_monte_a_demo(B)</files>
+    <description/>
+  </item>
+  <item key="2de">
+    <name>volfall</name>
+    <characteristics/>
+    <files>volfall</files>
+    <description/>
+  </item>
+  <item key="2df">
+    <name>MiiStatueM2</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiStatueM2(B)</files>
+    <description/>
+  </item>
+  <item key="2e0">
+    <name>RhMiiKanban</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>RhMiiKanban(B)</files>
+    <description/>
+  </item>
+  <item key="2e1">
+    <name>MiiStatueL3</name>
+    <characteristics>no route, found in tracks + other files</characteristics>
+    <files>MiiStatueL3(B)</files>
+    <description/>
+  </item>
+  <item key="2e2">
+    <name>MiiSignWario</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiSignWario(B)</files>
+    <description>Wario Face Sign in WGM</description>
+  </item>
+  <item key="2e3">
+    <name>MiiStatueBL1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiStatueBL1(B)</files>
+    <description>Baby Luigi Statue from DC</description>
+  </item>
+  <item key="2e4">
+    <name>MiiStatueBD1</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiStatueBD1(B)</files>
+    <description>Baby Daisy Statue from DC</description>
+  </item>
+  <item key="2e5">
+    <name>Kamifubuki</name>
+    <characteristics>no route, found in other files</characteristics>
+    <files>Kamifubuki(E)</files>
+    <description/>
+  </item>
+  <item key="2e6">
+    <name>Crescent64</name>
+    <characteristics>no route, found in arenas</characteristics>
+    <files>Crescent64(B)</files>
+    <description>Moon from rSC</description>
+  </item>
+  <item key="2e7">
+    <name>MiiSighKino</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiSighKino(B)</files>
+    <description/>
+  </item>
+  <item key="2e8">
+    <name>MiiObjD01</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiObjD01(B)</files>
+    <description/>
+  </item>
+  <item key="2e9">
+    <name>MiiObjD02</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiObjD02(B)</files>
+    <description/>
+  </item>
+  <item key="2ea">
+    <name>MiiObjD03</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>MiiObjD03(B)</files>
+    <description/>
+  </item>
+  <item key="2eb">
+    <name>mare_a</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>mare_a(B)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="2ec">
+    <name>mare_b</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>mare_b(B)</files>
+    <description/>
+    <setting id="2" type="hex">?</setting>
+    <setting id="3" type="hex">?</setting>
+    <setting id="4" type="hex">?</setting>
+  </item>
+  <item key="2ed">
+    <name>EnvKareha</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>EnvKareha(E)</files>
+    <description>Unknown controller - MT</description>
+  </item>
+  <item key="2ee">
+    <name>EnvFire</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>EnvFire(E)</files>
+    <description>Unknown controller - BC</description>
+  </item>
+  <item key="2ef">
+    <name>EnvSnow</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>EnvSnow(E)</files>
+    <description>Unknown controller - DKS/DKSC</description>
+  </item>
+  <item key="2f0">
+    <name>M_obj_start</name>
+    <characteristics/>
+    <files>M_obj_start</files>
+    <description/>
+  </item>
+  <item key="2f1">
+    <name>EnvKarehaUp</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>EnvKarehaUp(E)</files>
+    <description/>
+  </item>
+  <item key="2f2">
+    <name>M_obj_kanban_y</name>
+    <characteristics/>
+    <files>M_obj_kanban_y</files>
+    <description/>
+  </item>
+  <item key="2f3">
+    <name>DKfalls</name>
+    <characteristics>no route, found in tracks</characteristics>
+    <files>DKfalls(E)</files>
+    <description/>
+  </item>
+</items>

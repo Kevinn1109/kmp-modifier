@@ -1,0 +1,54 @@
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.Resources.resources
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.SectionEdit.resources
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\Tablefill.xml
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.exe
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.pdb
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.xml
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\KMP Modifier v2.0.exe
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\Datagridviewfill.dll
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\KMP Modifier v2.0.pdb
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\KMP Modifier v2.0.xml
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\Datagridviewfill.pdb
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\bin\Debug\Datagridviewfill.xml
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.exe
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.xml
+D:\Users\KEVIN\Documents\Visual Studio 2010\Projects\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.pdb
+D:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.exe
+D:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.pdb
+D:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.xml
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.Resources.resources
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.SectionEdit.resources
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.exe
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.xml
+D:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.pdb
+G:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.exe
+G:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.pdb
+G:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.xml
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.Resources.resources
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.SectionEdit.resources
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.write.1.tlog
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.exe
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.xml
+G:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.pdb
+G:\KMP Modifier v2.0\SectionEdit\bin\Debug\Sectionedit builds.txt
+D:\KMP Modifier v2.0\SectionEdit\bin\Debug\Sectionedit builds.txt
+F:\KMP Modifier v2.0\SectionEdit\bin\Debug\Sectionedit builds.txt
+F:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.exe
+F:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.pdb
+F:\KMP Modifier v2.0\SectionEdit\bin\Debug\SectionEdit.xml
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.Resources.resources
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.SectionEdit.resources
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.exe
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.xml
+F:\KMP Modifier v2.0\SectionEdit\obj\x86\Debug\SectionEdit.pdb
